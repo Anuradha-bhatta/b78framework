@@ -1,0 +1,11 @@
+<suite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="testng.xsd" name="Suite">
+  <test name="Test">
+    <parameter name="appURL" value="http://www.fb.com"/>
+  	<parameter name="ITO" value="9"/> 
+  	<parameter name="ETO" value="7"/> 
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+</suite>
